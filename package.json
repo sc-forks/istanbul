@@ -1,6 +1,6 @@
 {
   "name": "sc-istanbul",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Istanbul V0 used by solidity-coverage for its report-api",
   "keywords": [
     "coverage",
@@ -97,7 +97,7 @@
     "docs": "npm install yuidocjs && node node_modules/yuidocjs/lib/cli.js ."
   },
   "bin": {
-    "istanbul": "./lib/cli.js"
+    "istanbul": "lib/cli.js"
   },
   "files": [
     "index.js",
